@@ -14,7 +14,7 @@ function CreateDomain
 {
         #That function is used to create virtual host, by creating virtual host configration at /etc/httpd/conf.d
         #and domain directory at /var/www, it also creates index.html inside domain directory that contain domain name and host ip,
-        #and creates .htaccess file that have the domaoin options.it return 1 if it couldn't create th domain.
+        #and creates .htaccess file that have the domaoin options.it return 1 if it couldn't create th domain
 
         FLAG=1                                  #couldn't create the domain return code
 
